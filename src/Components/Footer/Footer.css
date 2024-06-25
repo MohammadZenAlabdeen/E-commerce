@@ -1,0 +1,11 @@
+footer{
+    background-color: cadetblue;
+    color: white;
+    height: 30px;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 40px;
+}

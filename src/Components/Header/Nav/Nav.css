@@ -1,0 +1,54 @@
+nav{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    
+    padding: 15px;
+    width: 100%;
+    
+}
+nav h1{
+    justify-self: center;
+}
+
+nav a{
+    width: 80px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+nav form{
+    justify-self: right;
+    display: flex;
+    justify-content: right;
+}
+.search-input {
+    width: 200px; /* adjust the width to your liking */
+    height: 30px;
+    padding: 0 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    width: 29.30vw;
+    height: 40px;
+    text-align: right;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 10px -3px inset, rgba(0, 0, 0, 0.1) 0px 2px 4px -3px;
+  }
+  .search_container{position: relative;
+justify-self: flex-end;}
+  .search_container svg {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    fill: #666;
+  }
